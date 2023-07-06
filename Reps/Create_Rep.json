@@ -1,0 +1,17 @@
+{
+    "region": "US",
+    "sourceId": users.id,
+    "info": {
+        "firstName": users.first_name,
+        "lastName": users.last_name,
+        "email": users.email,
+        "phoneNumber": user_profiles.phone,
+        "isActive": true,
+    },
+    "roles": [
+        {
+            "role": "Owner",
+            "organizationId": <FROM ORGANIZATION CREATION REQUEST>
+        }
+    ]
+}

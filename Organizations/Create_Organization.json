@@ -1,0 +1,15 @@
+{
+    "region": "US",
+    "sourceId": dealerships.id,
+    "info": {
+        "displayName": dealerships.name,
+        "operatedAs": dealerships.name,
+        "group": {
+            "sourceId": accounts.id,
+            "name": accounts.name,
+            "customerId": accounts.ecs_organization_group_id // IF IT EXISTS IT WILL UPDATE THE GROUP IN ECS
+        },
+        "isActive": true,
+        "region": "US"
+    }
+}
